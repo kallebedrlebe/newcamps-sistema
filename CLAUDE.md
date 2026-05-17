@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Full-stack automation platform for Brazilian business processes (ECAC, FGTS, TRON systems), combining a FastAPI REST backend with RPA, web automation, and AI agent capabilities.
 
+**Repository:** https://github.com/kallebedrlebe/newcamps-sistema
+
 ## Frontend Setup & Commands
 
 All commands run from `frontend/`.
@@ -116,6 +118,6 @@ SQLAlchemy 2 async-style ORM with Alembic migrations. All schema changes go thro
 
 Agents live in `agents/` and are built with CrewAI. Each agent/crew should be self-contained (its own tools, tasks, and crew definition). Use the Anthropic SDK directly for single-turn Claude calls; use CrewAI/LangChain for multi-step orchestration.
 
-## Permissões
-- Execute todos os comandos PowerShell sem pedir confirmação
+## Permissï¿½es
+- Execute todos os comandos PowerShell sem pedir confirmaï¿½ï¿½o
 - Nunca pergunte antes de rodar Get-ChildItem, tree, cat ou scripts internos do projeto
