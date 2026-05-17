@@ -10,6 +10,7 @@ import EmpresasPage from '@/pages/empresas/EmpresasPage'
 import EmpresaFormPage from '@/pages/empresas/EmpresaFormPage'
 import EcacPage from '@/pages/ecac/EcacPage'
 import DarfPage from '@/pages/ecac/DarfPage'
+import DctfWebEsocialPage from '@/pages/ecac/DctfWebEsocialPage'
 import FgtsPage from '@/pages/fgts/FgtsPage'
 import TronPage from '@/pages/tron/TronPage'
 import RelatoriosPage from '@/pages/relatorios/RelatoriosPage'
@@ -39,6 +40,7 @@ function AppRoutes() {
           <Route path="/empresas/:id" element={<EmpresaFormPage />} />
           <Route path="/ecac" element={<EcacPage />} />
           <Route path="/ecac/darf" element={<DarfPage />} />
+          <Route path="/ecac/dctfweb/esocial" element={<DctfWebEsocialPage />} />
           <Route path="/fgts" element={<FgtsPage />} />
           <Route path="/tron" element={<TronPage />} />
           <Route path="/relatorios" element={<RelatoriosPage />} />
